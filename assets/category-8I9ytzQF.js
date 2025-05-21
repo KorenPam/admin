@@ -1,0 +1,1 @@
+import{i as e}from"./http-CaWKIfWx.js";function c(t){return e.post("/category/create",t)}function g(t){const{id:r,...o}=t,a=`/category/update/${r}`;return e.put(a,o)}function u(t){return e.get("/category/getAllCategoryList",t)}function s(t){return e.post("/category/getCategoryTree",t)}export{s as a,c,u as g,g as u};

@@ -1,0 +1,1 @@
+import{i as t}from"./http-CaWKIfWx.js";function e(s){return t.post("/purchase/save-all",s)}function n(s){return t.post("/purchase/update-all",s)}function u(s){return t.post("/purchase/list",s)}function l(){return t.get("/purchase/all_list")}function c(s,r){return t.post(`/purchase/confirm/${s}/${r}`)}export{l as a,c,u as l,e as s,n as u};
